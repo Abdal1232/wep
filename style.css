@@ -1,0 +1,176 @@
+body{
+    margin: 0%;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+    
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.makeuseof.com%2Fcss-background-patterns-examples%2F&psig=AOvVaw0KLcoEI5SpKz0gi6vDmj4O&ust=1729718073211000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjBt_vzookDFQAAAAAdAAAAABAE");
+  background-color: #cccccc;
+
+}
+
+.header{
+    background-color:#e4ca66;
+    background-size: 20px;
+    border: 1.5px rgb(0, 0, 0) solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: none;
+}
+.Logo{
+    width: 150px;
+    border: 1px black solid ;
+}
+.mewo a {
+    color: white;
+    padding: 0px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+    }
+    .mewo button{
+    background-color: rgb(242, 242, 245);
+    border-radius: 20px;
+    border: none;
+    padding: 5px 17px ;
+    }
+    .mewo a:hover{
+    background-color: linear-gradient(45deg, #ff8a00, #e52e71);
+    }
+    .mewo button:hover{
+    background-color: white;
+    }
+
+.PC{
+background-color: #e4ca66;
+display: flex;
+justify-content: space-between;
+padding:30px 50px ;
+align-items: center;
+border: 1.5px black;
+color: white;
+font-family: "Afacad Flux", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+border-radius: 0px 0px 50px 50px;
+}
+.PC-Suchen input{
+border-radius: 50px ;
+border: none;
+outline: none;
+height: 30px;
+padding: 0 10px;
+}
+.PC-Suchen button{
+position: absolute;
+left: 180px;
+border-radius: 90px;
+outline: none;
+background-color: rosybrown;
+border: none;
+height: 30px;
+color:black;
+}
+.PC-Suchen button:hover{
+background-color: white;
+}
+.ll img{
+border-radius: 20px;
+width: 400px;
+}
+.abd{
+width: 500px;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+}
+.Pc-Teile {
+display: flex;justify-content: space-between;
+align-items: center;
+}
+.Produkte{
+    
+    gap: 100px;
+    display: flex;
+    flex-wrap: nowrap ;
+    margin-right: 100px;
+    right: 50px;
+    
+}
+   .PP button{
+    background-color: rosybrown;
+    outline: none;
+    border-radius: 90px;
+    border: none;
+    height: 30px;
+   bottom: 50px;
+   }
+   .PP button:hover{
+    background-color: white;
+   }
+   .PP{
+   padding: 25px 50px;
+   }
+   .Pc-Teile h1{
+    margin-top: 0%;
+   }
+   .PP span{
+    color: rosybrown;
+    text-transform: uppercase;
+    font-size: 20px;
+   } .card1  {
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    display: flex;
+   }
+   .info{
+align-items: center;
+
+}
+.info p{
+color: rgb(0, 0, 0);
+}
+.info a{
+text-decoration: none;
+}
+
+
+.Pc-Teile1 {
+display: flex;justify-content: space-between;
+align-items: center;
+}
+.Produkte1{
+    
+    gap: 100px;
+}
+.mewo button{
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.mewo{
+    background: linear-gradient(45deg, #e52e71, #ff8a00);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+    border-radius: 30px;
+}
+
+.mewo:active
+ {   transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}body {
+    background-color: #cccccc;
+    color: black;
+}
+
